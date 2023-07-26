@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Formulário de E-mail</h1>
+        <form id="form">
+            <div class="label">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="exemplo@gmail.com" required>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <div id="mensagemErro" style="color: red; display: none;">Por gentileza insira um email válido!</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

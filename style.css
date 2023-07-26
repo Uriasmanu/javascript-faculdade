@@ -1,0 +1,58 @@
+.card {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 342px;
+    height: 298px;
+    border-radius: 30px;
+    background: #fffafa;
+    box-shadow: 8px 17px 24px rgb(0, 0, 0.5);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+   }
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 82px;
+    align-items: center;
+}
+
+label{
+    color: rgb(0, 0, 0);
+}
+
+input{
+    height: 26px;
+    width: 198px;
+    border-radius: 25px;
+    text-align: center;
+    border: solid 1px black;
+}
+button{
+    background: cadetblue;
+    height: 32px;
+    width: 154px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+button:hover{
+    background: orange;
+    cursor: pointer;
+}
+
+input:hover{
+    border: solid 1px cadetblue;
+}
+
